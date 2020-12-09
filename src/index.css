@@ -39,9 +39,13 @@ section {
 /* These values are a personal preference. */
 h1 {
   font-size: 2.5rem;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
 }
 h3 {
   font-size: 1.75rem;
@@ -59,8 +63,6 @@ h4,
 h5 {
   margin: 0 0 0.5rem 0;
   /* Personally, I prefer lightweight headings. */
-  font-weight: 400;
-  font-family: 'Titillium Web', sans-serif;
   color: #484848;
 }
 p {
@@ -152,6 +154,23 @@ li {
   background-color: #f2f2f2;
 }
 
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item {
+  padding-right: 1vw;
+}
+
+.imageDiv {
+  width: 50%;
+}
+
+img {
+  border-radius: 8px;
+}
+
 /* if at least 1200 */
 @media screen and (min-width: 1200px) {
   section {
@@ -168,7 +187,36 @@ li {
     min-height: 60vh;
     min-width: 70vw;
     display: grid;
-    grid-gap: 5%;
+    gap: 10% 2.5%;
+  }
+
+  .photo1 {
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  .photo2 {
+    width: 33%;
+    height: auto;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+  }
+  .photo3 {
+    width: 40%;
+    height: auto;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+  }
+  .photo4 {
+    width: 40%;
+    height: auto;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-bottom: 8%;
   }
 }
 
@@ -185,12 +233,19 @@ li {
     min-height: 60vh;
     min-width: 70vw;
     display: grid;
-    grid-gap: 10%;
+    gap: 7% 2.5%;
+  }
+  .photo1 {
+    width: 30%;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-bottom: 5%;
   }
 }
 
 /* greater than 1000 and less than 1049 */
-@media screen and (min-width: 1000px) and (max-width: 1049px) {
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
   section {
     padding: 1rem 0 1rem 0.5rem;
   }
@@ -205,6 +260,12 @@ li {
     margin-left: 1vw;
     margin-right: 1vw;
   }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
 
   .nav {
     left: 10rem;
@@ -218,6 +279,16 @@ li {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 5%;
+  }
+  .proj {
+    margin-bottom: 5vh;
+  }
+  .photo1 {
+    width: 40%;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-bottom: 5%;
   }
 }
 
@@ -239,6 +310,39 @@ li {
   .proj {
     max-width: 50vw;
     min-height: 30vh;
+    margin-bottom: 5vh;
+  }
+  .photo1 {
+    width: 40%;
+    height: auto;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+  }
+  .photo2 {
+    width: 10%;
+    height: auto;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+  }
+  .photo3 {
+    width: 40%;
+    height: auto;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+  }
+  .photo4 {
+    width: 40%;
+    height: auto;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+  }
+  .projText {
+    margin-right: 10%;
+    margin-top: 2%;
   }
 }
 
@@ -258,6 +362,7 @@ li {
   .proj {
     max-width: 50vw;
     min-height: 30vh;
+    margin-bottom: 5vh;
   }
 }
 
@@ -281,6 +386,7 @@ li {
   .proj {
     max-width: 50vw;
     min-height: 30vh;
+    margin-bottom: 5vh;
   }
 }
 /* if less than 799 and greater than  */
@@ -303,6 +409,7 @@ li {
   .proj {
     max-width: 50vw;
     min-height: 30vh;
+    margin-bottom: 5vh;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 574px) {
@@ -334,5 +441,6 @@ li {
   .proj {
     max-width: 50vw;
     min-height: 30vh;
+    margin-bottom: 5vh;
   }
 }
