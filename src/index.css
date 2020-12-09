@@ -43,7 +43,7 @@ h1 {
   font-family: 'Titillium Web', sans-serif;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 100;
   font-family: 'Roboto', sans-serif;
 }
@@ -73,10 +73,11 @@ p {
 a {
   text-decoration: none;
   /* This color is a personal preference. */
-  color: #146eeb;
+  color: #484848;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: rgb(236, 0, 249);
 }
 /* Lists */
 ul,
@@ -163,6 +164,10 @@ li {
   padding-right: 1vw;
 }
 
+.link:hover {
+  color: rgb(236, 0, 249);
+}
+
 .imageDiv {
   width: 50%;
 }
@@ -175,6 +180,9 @@ img {
 @media screen and (min-width: 1200px) {
   section {
     padding: 1rem 0 1rem 0.5rem;
+  }
+  li {
+    padding-bottom: 2vh;
   }
   .nav {
     left: 1rem;
@@ -191,10 +199,10 @@ img {
   }
 
   .photo1 {
-    width: 30%;
+    width: 70%;
     height: auto;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-bottom: 5%;
   }
   .photo2 {
@@ -212,10 +220,10 @@ img {
     margin-bottom: 8%;
   }
   .photo4 {
-    width: 40%;
+    width: 50%;
     height: auto;
     margin-top: 8%;
-    margin-right: 5%;
+    margin-left: 20%;
     margin-bottom: 8%;
   }
 }
