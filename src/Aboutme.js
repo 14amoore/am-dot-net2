@@ -1,11 +1,11 @@
 import React from 'react';
 
-function AboutMe() {
+const AboutMe = () => {
   return (
     <section>
-      <h1>Hi About me.</h1>
+      <h1>Hi About me!</h1>
     </section>
   );
-}
+};
 
 export default AboutMe;

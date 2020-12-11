@@ -148,6 +148,8 @@ li {
 .projects {
   position: relative;
   top: 4rem;
+  animation-duration: 1.5s;
+  animation-name: slidein;
 }
 
 .proj {
@@ -229,7 +231,7 @@ img {
   }
 }
 
-/* #backButton {
+#backButton {
   position: absolute;
   animation-duration: 1s;
   animation-name: slidein;
@@ -237,34 +239,29 @@ img {
 
 @keyframes slidein {
   0% {
-    left: -100%;
+    opacity: 0;
   }
   100% {
-    left: 15%;
+    opacity: 1;
   }
-} */
-
-.test-appear {
-  opacity: 0.01;
-}
-.test-appear.test-appear-active {
-  opacity: 1;
-  transition: opacity 750ms ease-in;
-}
-.test-leave {
-  opacity: 1;
-}
-.test-leave.test-leave-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in;
 }
 
-.back-appear {
-  opacity: 0.01;
+#noButton {
+  position: absolute;
+  animation-duration: 1s;
+  animation-name: slideout;
+  animation-fill-mode: forwards;
+  visibility: hidden;
 }
-.back-appear.back-appear-active {
-  opacity: 1;
-  transition: opacity 0.75s ease-in;
+
+@keyframes slideout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+  }
 }
 
 /* greater than 1050 and less than 1200 */
