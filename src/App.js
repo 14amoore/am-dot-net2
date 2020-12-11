@@ -1,29 +1,35 @@
 import React from 'react';
+import { CSSTransitionGroup } from 'react-transition-group';
 import { Router } from '@reach/router';
-// import PropTypes from 'prop-types';
 import Nav from './Nav';
-// import Nav2 from './Nav2';
 import Project from './Project';
 import Cookies from './Cookies';
 import Cav from './Cav';
 import Dbot from './Dbot';
 import Sonsoc from './SonSoc';
 import AboutMe from './Aboutme';
-// import logo from './assets/logo.svg';
-// import './App.css';
 
 function App() {
   return (
     <main className="App">
       <Nav />
-      <Router>
-        <Project path="/" />
-        <AboutMe path="/aboutme" />
-        <Cookies path="/cookies" />
-        <Cav path="/cav" />
-        <Dbot path="/dbot" />
-        <Sonsoc path="/sonsoc" />
-      </Router>
+      <CSSTransitionGroup
+        transitionName="test"
+        // eslint-disable-next-line react/jsx-boolean-value
+        transitionAppear={true}
+        transitionAppearTimeout={750}
+        transitionEnterTimeout={750}
+        transitionLeaveTimeout={750}
+      >
+        <Router>
+          <Project path="/" />
+          <AboutMe path="/aboutme" />
+          <Cookies path="/cookies" />
+          <Cav path="/cav" />
+          <Dbot path="/dbot" />
+          <Sonsoc path="/sonsoc" />
+        </Router>
+      </CSSTransitionGroup>
     </main>
   );
 }

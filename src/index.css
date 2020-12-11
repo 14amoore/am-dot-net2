@@ -153,6 +153,7 @@ li {
 .proj {
   border: none;
   background-color: #f2f2f2;
+  border-radius: 8px;
 }
 
 .container {
@@ -226,6 +227,44 @@ img {
     margin-left: 20%;
     margin-bottom: 8%;
   }
+}
+
+/* #backButton {
+  position: absolute;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 15%;
+  }
+} */
+
+.test-appear {
+  opacity: 0.01;
+}
+.test-appear.test-appear-active {
+  opacity: 1;
+  transition: opacity 750ms ease-in;
+}
+.test-leave {
+  opacity: 1;
+}
+.test-leave.test-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.back-appear {
+  opacity: 0.01;
+}
+.back-appear.back-appear-active {
+  opacity: 1;
+  transition: opacity 0.75s ease-in;
 }
 
 /* greater than 1050 and less than 1200 */
