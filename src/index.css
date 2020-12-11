@@ -143,6 +143,8 @@ li {
   font-weight: 700;
   font-size: 2rem;
   position: absolute;
+  animation-duration: 1.5s;
+  animation-name: slidein;
 }
 
 .projects {
@@ -250,7 +252,7 @@ img {
   position: absolute;
   animation-duration: 1s;
   animation-name: slideout;
-  animation-fill-mode: forwards;
+  animation-fill-mode: both;
   visibility: hidden;
 }
 

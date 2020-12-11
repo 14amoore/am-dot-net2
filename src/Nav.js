@@ -31,7 +31,7 @@ function Nav() {
               <li>
                 <a href="https://github.com/14amoore">GitHub</a>
               </li>
-              <li id="noButton">Back</li>
+              {/* <li id="noButton">Back</li> */}
             </ul>
           );
         }}
