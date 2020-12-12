@@ -1,16 +1,19 @@
 import React from 'react';
 import { Link } from '@reach/router';
-import speaker from './assets/speaker.jpeg';
-import robby from './assets/robby3.jpg';
-import waveform from './assets/waveForm.png';
-import redBlend from './assets/redBlend.webp';
+// import speaker from './assets/speaker.jpeg';
+// import robby from './assets/robby3.jpg';
+// import waveform from './assets/waveForm.png';
+import wineGlass from './assets/wine.svg';
+import music from './assets/music.svg';
+import skull from './assets/skull.svg';
+import volume from './assets/volume-loud.svg';
 
 function Project() {
   return (
     <section className="projects">
       <span className="proj container">
         <div className="imageDiv">
-          <img className="photo1" src={speaker} alt="a speaker" />
+          <img className="photo1" src={music} alt="a speaker" />
         </div>
         <div className="projText">
           <Link to="/cookies">
@@ -21,7 +24,7 @@ function Project() {
       </span>
       <span className="proj container">
         <div className="imageDiv">
-          <img className="photo2" src={redBlend} alt="wine" />
+          <img src={wineGlass} alt="Wine Glass" />
         </div>
         <div>
           <Link to="/cav">
@@ -32,7 +35,7 @@ function Project() {
       </span>
       <span className="proj container">
         <div className="imageDiv">
-          <img className="photo3" src={robby} alt="robot" />
+          <img className="photo3" src={skull} alt="robot" />
         </div>
         <div>
           <Link to="/dbot">
@@ -43,7 +46,7 @@ function Project() {
       </span>
       <span className="proj container">
         <div className="imageDiv">
-          <img className="photo4" src={waveform} alt="sound" />
+          <img className="photo4" src={volume} alt="sound" />
         </div>
         <div>
           <Link to="/sonsoc">
