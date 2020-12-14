@@ -1,9 +1,10 @@
 import React from 'react';
+import ReactPlayer from 'react-player/lazy';
 
 function Sonsoc() {
   return (
     <section>
-      <h1>Hi Sonsoc!</h1>
+      <ReactPlayer url="https://vimeo.com/490924047" />
     </section>
   );
 }

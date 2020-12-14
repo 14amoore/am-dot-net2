@@ -179,6 +179,15 @@ li {
   width: 50%;
 }
 
+.tick {
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 100px;
+  margin-top: 100px;
+  left: 100%;
+}
+
 img {
   border-radius: 8px;
 }

@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from '@reach/router';
-// import speaker from './assets/speaker.jpeg';
-// import robby from './assets/robby3.jpg';
-// import waveform from './assets/waveForm.png';
+// import Tick from './Tick';
 import wineGlass from './assets/wine.svg';
 import music from './assets/music.svg';
 import skull from './assets/skull.svg';
 import volume from './assets/volume-loud.svg';
+import Footer from './Tick';
 
 function Project() {
   return (
@@ -55,6 +54,7 @@ function Project() {
           <h2 className="item">What&apos;s the mood of Twitter?</h2>
         </div>
       </span>
+      <Footer />
     </section>
   );
 }
