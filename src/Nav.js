@@ -29,7 +29,7 @@ function Nav() {
                 <li>About Me</li>
               </Link>
               <li>
-                <a href="https://github.com/14amoore">GitHub</a>
+                <Link to="https://github.com/14amoore">GitHub</Link>
               </li>
               <li id="noButton">Back</li>
             </ul>

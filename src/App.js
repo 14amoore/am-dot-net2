@@ -1,5 +1,4 @@
 import React from 'react';
-import Granim from 'react-granim';
 import { Router } from '@reach/router';
 import Nav from './Nav';
 import Project from './Project';
@@ -21,7 +20,6 @@ function App() {
         <Dbot path="/dbot" />
         <Sonsoc path="/sonsoc" />
       </Router>
-      <Granim />
     </main>
   );
 }

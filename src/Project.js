@@ -18,7 +18,7 @@ function Project() {
           <Link to="/cookies">
             <h1 className="item link">Cookies&Chrome</h1>
           </Link>
-          <h2 className="item">What does browsing sound like?</h2>
+          <h2 className="item subheading">What does browsing sound like?</h2>
         </div>
       </span>
       <span className="proj container">
@@ -29,7 +29,7 @@ function Project() {
           <Link to="/cav">
             <h1 className="item link">ClosetCav</h1>
           </Link>
-          <h2 className="item">Do we have that?</h2>
+          <h2 className="item subheading">Do we have that?</h2>
         </div>
       </span>
       <span className="proj container">
@@ -40,7 +40,7 @@ function Project() {
           <Link to="/dbot">
             <h1 className="item link">DrinkBot</h1>
           </Link>
-          <h2 className="item">Who needs a drink?</h2>
+          <h2 className="item subheading">Who needs a drink?</h2>
         </div>
       </span>
       <span className="proj container">
@@ -51,7 +51,7 @@ function Project() {
           <Link to="/sonsoc">
             <h1 className="item link">SonifiedSocial</h1>
           </Link>
-          <h2 className="item">What&apos;s the mood of Twitter?</h2>
+          <h2 className="item subheading">What&apos;s the mood of Twitter?</h2>
         </div>
       </span>
       <Footer />

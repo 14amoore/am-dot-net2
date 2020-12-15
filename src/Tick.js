@@ -47,7 +47,7 @@ function Footer() {
     <div>
       <div style={phantom} />
       <div style={style}>
-        <Ticker offset="100%" speed={10}>
+        <Ticker offset="100%" speed={7}>
           {() => (
             <h3>
               {whatImInto[rand(0, whatImInto.length - 1)]}

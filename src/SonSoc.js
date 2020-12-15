@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player/lazy';
 
 function Sonsoc() {
   return (
-    <section>
+    <section className="headline">
       <ReactPlayer url="https://vimeo.com/490924047" />
     </section>
   );
