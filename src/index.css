@@ -65,13 +65,13 @@ h4,
 h5 {
   margin: 0 0 0.5rem 0;
   /* Personally, I prefer lightweight headings. */
-  color: #484848;
+  color: #2d2d2d;
 }
 p {
   margin: 0 0 0.5rem 0;
   color: #484848;
   font-weight: 300;
-  padding-right: 8vw;
+  padding-right: 0;
 }
 canvas {
   z-index: -1;
@@ -81,7 +81,7 @@ canvas {
 a {
   text-decoration: none;
   /* This color is a personal preference. */
-  color: #484848;
+  color: #2d2d2d;
 }
 a:hover {
   text-decoration: none;
@@ -92,9 +92,12 @@ ul,
 ol {
   margin: 0.5rem 0 1rem;
   padding-inline-start: 1rem;
-  list-style: none;
   font-family: 'Titillium Web', sans-serif;
   color: #484848;
+}
+
+ul {
+  list-style: none;
 }
 ul ul,
 ul ol,
@@ -105,7 +108,7 @@ ol ol {
 hr {
   box-sizing: content-box;
   height: 0;
-  overflow: visible;
+  /* overflow: visible; */
 }
 button,
 input,
@@ -248,6 +251,7 @@ body {
 .headline {
   position: absolute;
   margin-top: 0;
+  padding-right: 12vw;
 }
 
 .player {
@@ -259,8 +263,17 @@ body {
   padding-right: 6vw;
 }
 
+.drinks {
+  margin-top: 10vh;
+}
+
 img {
   border-radius: 8px;
+}
+
+#botTitle {
+  position: relative;
+  right: 2vw;
 }
 
 /* if at least 1200 */
@@ -326,6 +339,7 @@ img {
     left: 20vw;
     top: 8vh;
   }
+
   iframe {
     position: relative;
     left: 4vw;
@@ -366,7 +380,7 @@ img {
 }
 
 /* greater than 1050 and less than 1200 */
-@media screen and (min-width: 1050px) and (max-width: 1199px) {
+@media screen and (min-width: 1070px) and (max-width: 1199px) {
   .nav {
     top: 5.5rem;
     left: 3rem;
@@ -392,7 +406,7 @@ img {
 }
 
 /* greater than 1000 and less than 1049 */
-@media screen and (min-width: 1000px) and (max-width: 1050px) {
+@media screen and (min-width: 1037px) and (max-width: 1069px) {
   section {
     padding: 1rem 0 1rem 0.5rem;
   }
@@ -401,10 +415,6 @@ img {
     margin-left: 1vw;
     margin-right: 1vw;
     margin-bottom: 0.5vh;
-  }
-
-  h1 {
-    font-size: 2rem;
   }
 
   h2 {
@@ -428,9 +438,9 @@ img {
     left: 12vw;
   }
 
-  /* .proj {
-    margin-bottom: 5vh;
-  } */
+  .headline {
+    top: 2vh;
+  }
 
   .photo1 {
     width: 40%;
@@ -449,7 +459,7 @@ img {
   }
 }
 
-@media screen and (min-width: 951px) and (max-width: 1000px) {
+@media screen and (min-width: 951px) and (max-width: 1036px) {
   li {
     padding-bottom: 1vh;
   }
@@ -520,7 +530,7 @@ img {
   }
 
   .headline {
-    margin-left: 7vw;
+    left: 27vw;
   }
 
   .projects {
@@ -535,13 +545,19 @@ img {
 }
 
 /* if less than 900 and greater than 800 */
-@media screen and (min-width: 815px) and (max-width: 900px) {
+@media screen and (min-width: 830px) and (max-width: 900px) {
   ul {
     margin-left: 0;
     padding-inline-start: 0;
   }
   li {
     margin-bottom: 1.5vh;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
   }
   .projects {
     left: 28vw;
@@ -550,32 +566,88 @@ img {
   .nav {
     padding-left: 0;
     top: 11vh;
-    left: 8vw;
+    left: 4vw;
+    font-size: 1.75rem;
   }
   .proj {
     max-width: 50vw;
     min-height: 20vh;
     margin-bottom: 5vh;
   }
-}
-/* if less than 799 and greater than  */
-@media screen and (min-width: 575px) and (max-width: 814px) {
-  li {
-    margin-bottom: 2vh;
+  .headline {
+    left: 22vw;
   }
+}
 
-  .nav {
-    left: 8vw;
-    top: 8vh;
+/* if less than 900 and greater than 800 */
+@media screen and (min-width: 800px) and (max-width: 829px) {
+  ul {
+    margin-left: 0;
+    padding-inline-start: 0;
+    display: inline;
+  }
+  li {
+    margin-bottom: 1.5vh;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
   }
   .projects {
-    left: 38vw;
-    top: 7vh;
+    left: 28vw;
+    top: 12vh;
+  }
+  .nav {
+    padding-left: 0;
+    top: 11vh;
+    left: 4vw;
+    font-size: 1.75rem;
   }
   .proj {
     max-width: 50vw;
     min-height: 20vh;
+    margin-bottom: 5vh;
+  }
+  .headline {
+    left: 22vw;
+  }
+}
+
+/* if less than 799 and greater than  */
+@media screen and (min-width: 575px) and (max-width: 799px) {
+  ul {
+    margin-left: 0;
+    padding-inline-start: 0;
+    display: inline;
+  }
+  li {
     margin-bottom: 1.5vh;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .projects {
+    left: 28vw;
+    top: 12vh;
+  }
+  .nav {
+    padding-left: 0;
+    top: 11vh;
+    left: 4vw;
+    font-size: 1.75rem;
+  }
+  .proj {
+    max-width: 50vw;
+    min-height: 20vh;
+    margin-bottom: 5vh;
+  }
+  .headline {
+    left: 22vw;
   }
   .photo1 {
     width: 80%;
@@ -586,6 +658,9 @@ img {
   }
   .link {
     font-size: 2rem;
+  }
+  .player {
+    width: 500px;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 574px) {
