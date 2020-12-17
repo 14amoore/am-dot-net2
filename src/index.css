@@ -38,19 +38,19 @@ section {
 /* Basic text */
 /* These values are a personal preference. */
 h1 {
-  font-size: 2.5rem;
-  font-weight: 500;
-  font-family: 'Titillium Web', sans-serif;
+  font-size: 2.75rem;
+  font-weight: 400;
+  font-family: 'Bebas Neue', sans-serif;
 }
 h2 {
-  font-size: 1.25rem;
-  /* font-weight: 100; */
-  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
 }
 h3 {
   font-size: 1.75rem;
   font-family: 'Roboto';
-  font-weight: 400;
+  font-weight: 300;
 }
 h4 {
   font-size: 1.5rem;
@@ -92,7 +92,7 @@ ul,
 ol {
   margin: 0.5rem 0 1rem;
   padding-inline-start: 1rem;
-  font-family: 'Titillium Web', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   color: #484848;
 }
 
@@ -154,7 +154,7 @@ body {
   width: 100%;
   height: 100%;
   color: #ffffff;
-  background: linear-gradient(-45deg, #fbb099, #f686b1, #8adefc, #6ffbda);
+  background: linear-gradient(-45deg, #0e8eff, #78c0fe, #c9e5ff, #eaf5fe);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
@@ -198,14 +198,16 @@ body {
 }
 
 .nav {
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: 500;
+  font-size: 3rem;
   position: absolute;
+  font-family: 'Roboto';
 }
 
 .projects {
   position: relative;
   top: 6rem;
+  right: 4vw;
   animation-duration: 1.5s;
   animation-name: slidein;
 }
@@ -219,11 +221,7 @@ body {
 
 .container {
   display: flex;
-  justify-content: flex-end;
-}
-
-.item {
-  padding-right: 1vw;
+  justify-content: right;
 }
 
 .link:hover {
@@ -234,19 +232,19 @@ body {
   width: 50%;
 }
 
-.tick {
+/* .tick {
   width: 100vw;
   position: relative;
   margin-left: -50vw;
   height: 100px;
   margin-top: 100px;
   left: 100%;
-}
+} */
 
-.subheading {
+/* .subheading {
   font-family: 'Roboto';
   font-size: 1rem;
-}
+} */
 
 .headline {
   position: absolute;
@@ -293,14 +291,14 @@ img {
   .projects {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    min-height: 60vh;
+    min-height: 80vh;
     min-width: 70vw;
     display: grid;
     gap: 5% 2.5%;
   }
 
   .link {
-    font-weight: 500;
+    font-weight: 400;
   }
 
   .subheading {
@@ -522,25 +520,32 @@ img {
 @media screen and (min-width: 900px) and (max-width: 950px) {
   li {
     margin-bottom: 1vh;
+    display: inline;
+    padding-right: 2vw;
   }
 
   .nav {
-    left: 3rem;
-    top: 5.5rem;
+    left: 23rem;
+    top: 2rem;
   }
 
   .headline {
     left: 27vw;
   }
 
-  .projects {
-    left: 22vw;
+  .projText {
+    margin-right: 2vw;
+    margin-top: 3vw;
   }
 
   .proj {
-    max-width: 50vw;
-    min-height: 20vh;
+    max-width: 60vw;
+    min-height: 30vh;
     margin-bottom: 5vh;
+  }
+  .photo1 {
+    padding-left: 6vw;
+    padding-top: 4vh;
   }
 }
 

@@ -16,18 +16,18 @@ function Project() {
         </div>
         <div className="projText">
           <Link to="/cookies">
-            <h1 className="item link">Cookies&Chrome</h1>
+            <h1 className="item link">Adamoore.net</h1>
           </Link>
-          <h2 className="item subheading">What does browsing sound like?</h2>
+          <h2 className="item subheading">Why Am I Here?</h2>
         </div>
       </span>
       <span className="proj container">
         <div className="imageDiv">
           <img src={wineGlass} alt="Wine Glass" />
         </div>
-        <div>
+        <div className="projText">
           <Link to="/cav">
-            <h1 className="item link">ClosetCav</h1>
+            <h1 className="item link">Closet Cav</h1>
           </Link>
           <h2 className="item subheading">Do we have that?</h2>
         </div>
@@ -36,9 +36,9 @@ function Project() {
         <div className="imageDiv">
           <img className="photo3" src={skull} alt="robot" />
         </div>
-        <div>
+        <div className="projText">
           <Link to="/dbot">
-            <h1 className="item link">DrinkBot</h1>
+            <h1 className="item link">Drink Bot</h1>
           </Link>
           <h2 className="item subheading">Who needs a drink?</h2>
         </div>
@@ -47,11 +47,11 @@ function Project() {
         <div className="imageDiv">
           <img className="photo4" src={volume} alt="sound" />
         </div>
-        <div>
+        <div className="projText">
           <Link to="/sonsoc">
-            <h1 className="item link">SonifiedSocial</h1>
+            <h1 className="item link">Sound Work</h1>
           </Link>
-          <h2 className="item subheading">What&apos;s the mood of Twitter?</h2>
+          <h2 className="item subheading">What Can Sound Do For You?</h2>
         </div>
       </span>
       <Footer />

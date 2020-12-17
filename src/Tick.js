@@ -11,19 +11,58 @@ function rand(min, max) {
 }
 
 const whatImInto = [
-  `What I'm Reading: The Years of Lyndon B. Johnson by Robert Caro.`,
-  `What I'm Reading: Brother, I am Dying by Edwidge Danticat.`,
-  `What I'm Streaming: Buffy The Vampire Slayer.`,
-  `What I'm Streaming: The West Wing.`,
-  `What I'm Streaming: Bob's Burgers.`,
-  `What I'm Doing: Running.`,
-  `What I'm Doing: Birdwatching.`,
-  `What I'm Doing: Growing cacti.`,
-  `What I'm Doing: Cycling.`,
-  `What I'm Drinking: Miller High Life.`,
-  `What I'm Drinking: Iced Coffee.`,
-  `What I'm Cooking: Buttermilk Brined Chicken.`,
-  `What I'm Cooking: Pork Shoulder in Salsa Verde.`,
+  <span>
+    <b>What I&apos;m Reading:</b>&nbsp;
+    <span>The Years of Lyndon B. Johnson by Robert Caro.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Reading:</b>&nbsp;
+    <span>Brother, I am Dying by Edwidge Danticat.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Streaming:</b>&nbsp;
+    <span>Buffy The Vampire Slayer.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Streaming:</b>&nbsp;
+    <span>The West Wing.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Streaming:</b>&nbsp;
+    <span>Bob&apos;s Burgers.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Doing:</b>&nbsp;
+    <span>Running.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Doing:</b>&nbsp;
+    <span>Birdwatching.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Doing:</b>&nbsp;
+    <span>Growing Cacti.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Doing:</b>&nbsp;
+    <span>Cycling.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Drinking:</b>&nbsp;
+    <span>Miller High Life.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Drinking:</b>&nbsp;
+    <span>Iced Coffee.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Cooking:</b>&nbsp;
+    <span>Buttermilk Brined Chicken.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Cooking:</b>&nbsp;
+    <span>Pork Shoulder in Salsa Verde.</span>&nbsp;
+  </span>,
 ];
 
 const style = {
@@ -31,7 +70,7 @@ const style = {
   position: 'fixed',
   left: '0',
   bottom: '0',
-  height: '40px',
+  height: '50px',
   width: '100%',
 };
 
