@@ -4,7 +4,7 @@ import Drinks from './Drinks';
 function Dbot() {
   return (
     <section className="drinks">
-      <h1 id="botTitle">DrinkBot</h1>
+      <h1 className="title">DrinkBot</h1>
       <div className="drinkGoRound">
         <Drinks />
       </div>

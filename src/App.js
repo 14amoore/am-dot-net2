@@ -2,6 +2,7 @@ import React from 'react';
 import { Router } from '@reach/router';
 import Nav from './Nav';
 import Project from './Project';
+import Portfolio from './Portfolio';
 import Cookies from './Cookies';
 import Cav from './Cav';
 import Dbot from './Dbot';
@@ -15,9 +16,10 @@ function App() {
       <Router>
         <Project path="/" />
         <AboutMe path="/aboutme" />
-        <Cookies path="/cookies" />
+        <Portfolio path="/portfolio" />
         <Cav path="/cav" />
         <Dbot path="/dbot" />
+        <Cookies path="/cookies" />
         <Sonsoc path="/sonsoc" />
       </Router>
     </main>

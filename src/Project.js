@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from '@reach/router';
-// import Tick from './Tick';
 import wineGlass from './assets/wine.svg';
 import music from './assets/music.svg';
 import skull from './assets/skull.svg';
@@ -10,18 +9,18 @@ import Footer from './Tick';
 function Project() {
   return (
     <section className="projects">
-      <span className="proj container">
+      <div className="proj container">
         <div className="imageDiv">
           <img className="photo1" src={music} alt="a speaker" />
         </div>
         <div className="projText">
-          <Link to="/cookies">
+          <Link to="/portfolio">
             <h1 className="item link">Adamoore.net</h1>
           </Link>
           <h2 className="item subheading">Why Am I Here?</h2>
         </div>
-      </span>
-      <span className="proj container">
+      </div>
+      <div className="proj container">
         <div className="imageDiv">
           <img src={wineGlass} alt="Wine Glass" />
         </div>
@@ -31,8 +30,8 @@ function Project() {
           </Link>
           <h2 className="item subheading">Do we have that?</h2>
         </div>
-      </span>
-      <span className="proj container">
+      </div>
+      <div className="proj container">
         <div className="imageDiv">
           <img className="photo3" src={skull} alt="robot" />
         </div>
@@ -42,8 +41,8 @@ function Project() {
           </Link>
           <h2 className="item subheading">Who needs a drink?</h2>
         </div>
-      </span>
-      <span className="proj container">
+      </div>
+      <div className="proj container">
         <div className="imageDiv">
           <img className="photo4" src={volume} alt="sound" />
         </div>
@@ -53,7 +52,7 @@ function Project() {
           </Link>
           <h2 className="item subheading">What Can Sound Do For You?</h2>
         </div>
-      </span>
+      </div>
       <Footer />
     </section>
   );

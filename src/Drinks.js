@@ -31,6 +31,7 @@ const Drinks = () => {
       autoPlayInterval={1000}
       infinite
       items={items}
+      disableDotsControls="true"
     />
   );
 };
