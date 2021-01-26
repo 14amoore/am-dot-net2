@@ -12,6 +12,7 @@
 /build
 
 # misc
+public/AM_favicon_200x200_FINAL_black.ico
 src/assets
 .DS_Store
 .env.local
