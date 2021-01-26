@@ -3,8 +3,8 @@ import ReactPlayer from 'react-player/lazy';
 
 function Sonsoc() {
   return (
-    <section className="headline">
-      <h1>Sonified Social</h1>
+    <section className="projectBody">
+      <h1 className="title">Sonified Social</h1>
       <ReactPlayer url="https://vimeo.com/490924047" className="player" />
       <h1>How I Made This:</h1>
       <h3>

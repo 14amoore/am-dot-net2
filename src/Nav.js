@@ -12,13 +12,13 @@ function Nav() {
             return (
               <ul>
                 <Link to="/aboutme">
-                  <li>About Me</li>
+                  <li>about me</li>
                 </Link>
                 <li>
-                  <a href="https://github.com/14amoore">GitHub</a>
+                  <a href="https://github.com/14amoore">github</a>
                 </li>
                 <Link to="/">
-                  <li id="backButton">Back</li>
+                  <li id="backButton">back</li>
                 </Link>
               </ul>
             );
@@ -26,12 +26,12 @@ function Nav() {
           return (
             <ul>
               <Link to="/aboutme">
-                <li>About Me</li>
+                <li>about me</li>
               </Link>
               <li>
-                <Link to="https://github.com/14amoore">GitHub</Link>
+                <a href="https://github.com/14amoore">github</a>
               </li>
-              <li id="noButton">Back</li>
+              {/* <li id="noButton">Back</li> */}
             </ul>
           );
         }}
