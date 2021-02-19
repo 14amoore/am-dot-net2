@@ -1,59 +1,50 @@
 import React from 'react';
 import { Link } from '@reach/router';
-import wineGlass from './assets/wine.svg';
-import music from './assets/music.svg';
-import skull from './assets/skull.svg';
-import volume from './assets/volume-loud.svg';
+import wineGlass from './assets/closet_cav_spot_FINAL.png';
+import website from './assets/website_spot_FINAL.png';
+import drink from './assets/drink_bot_spot_FINAL.png';
+import volume from './assets/sound_spot_FINAL.png';
 import Footer from './Tick';
 
 function Project() {
   return (
-    <section className="projects">
-      <div className="proj container">
-        <div className="imageDiv">
-          <img className="photo1" src={music} alt="a speaker" />
-        </div>
-        <div className="projText">
-          <Link to="/portfolio">
-            <h1 className="item link">Adamoore.net</h1>
-          </Link>
-          <h2 className="item subheading">Why Am I Here?</h2>
-        </div>
+    <section>
+      <div className="projects">
+        <Link to="/portfolio">
+          <div className="container">
+            <div className="proj">
+              <img className="photo1" src={website} alt="a speaker" />
+            </div>
+            <h1 className="centeredLink">adamoore.net</h1>
+          </div>
+        </Link>
+        <Link to="/cav">
+          <div className="container">
+            <div className="proj">
+              <img className="photo1" src={wineGlass} alt="Wine Glass" />
+            </div>
+
+            <h1 className="centeredLink">Closet Cav</h1>
+          </div>
+        </Link>
+        <Link to="/dbot">
+          <div className="container">
+            <div className="proj">
+              <img className="photo1" src={drink} alt="robot" />
+            </div>
+            <h1 className="centeredLink">drinkBot</h1>
+          </div>
+        </Link>
+        <Link to="/sonsoc">
+          <div className="container">
+            <div className="proj">
+              <img className="photo1" src={volume} alt="sound" />
+            </div>
+            <h1 className="centeredLink">Sound Work</h1>
+          </div>
+        </Link>
+        <Footer />
       </div>
-      <div className="proj container">
-        <div className="imageDiv">
-          <img src={wineGlass} alt="Wine Glass" />
-        </div>
-        <div className="projText">
-          <Link to="/cav">
-            <h1 className="item link">Closet Cav</h1>
-          </Link>
-          <h2 className="item subheading">Do we have that?</h2>
-        </div>
-      </div>
-      <div className="proj container">
-        <div className="imageDiv">
-          <img className="photo3" src={skull} alt="robot" />
-        </div>
-        <div className="projText">
-          <Link to="/dbot">
-            <h1 className="item link">Drink Bot</h1>
-          </Link>
-          <h2 className="item subheading">Who needs a drink?</h2>
-        </div>
-      </div>
-      <div className="proj container">
-        <div className="imageDiv">
-          <img className="photo4" src={volume} alt="sound" />
-        </div>
-        <div className="projText">
-          <Link to="/sonsoc">
-            <h1 className="item link">Sound Work</h1>
-          </Link>
-          <h2 className="item subheading">What Can Sound Do For You?</h2>
-        </div>
-      </div>
-      <Footer />
     </section>
   );
 }

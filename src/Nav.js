@@ -4,35 +4,41 @@ import { Location, Link } from '@reach/router';
 
 function Nav() {
   return (
-    <section className="nav">
+    <section>
       <Location>
         {({ location }) => {
           const gps = location.pathname;
           if (gps !== '/') {
             return (
-              <ul>
-                <Link to="/aboutme">
-                  <li>about me</li>
-                </Link>
-                <li>
-                  <a href="https://github.com/14amoore">github</a>
-                </li>
-                <Link to="/">
-                  <li id="backButton">back</li>
-                </Link>
-              </ul>
+              <div className="nav">
+                <ul className="horizUl">
+                  <Link to="/aboutme">
+                    <li className="horizontalLi">about me</li>
+                  </Link>
+                  <li className="horizontalLi">
+                    <a href="https://github.com/14amoore">github</a>
+                  </li>
+                  <Link to="/">
+                    <li id="backButton" className="horizontalLi">
+                      back
+                    </li>
+                  </Link>
+                </ul>
+              </div>
             );
           }
           return (
-            <ul>
-              <Link to="/aboutme">
-                <li>about me</li>
-              </Link>
-              <li>
-                <a href="https://github.com/14amoore">github</a>
-              </li>
-              {/* <li id="noButton">Back</li> */}
-            </ul>
+            <div className="nav">
+              <ul className="horizUl">
+                <Link to="/aboutme">
+                  <li className="horizontalLi">about me</li>
+                </Link>
+                <li className="horizontalLi">
+                  <a href="https://github.com/14amoore">github</a>
+                </li>
+                {/* <li id="noButton">Back</li> */}
+              </ul>
+            </div>
           );
         }}
       </Location>
