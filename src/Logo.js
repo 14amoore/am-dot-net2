@@ -9,7 +9,7 @@ function Logo() {
     <Location>
       {({ location }) => {
         const gps = location.pathname;
-        if (gps !== '/') {
+        if (gps !== '/' || window.innerWidth <= 375) {
           return (
             <div className="littleLogo">
               <Link to="/">
