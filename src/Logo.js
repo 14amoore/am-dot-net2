@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { Location } from '@reach/router';
+import { Location, Link } from '@reach/router';
 import bigLogo from './assets/AM_logo_FINAL_black.svg';
 import littleLogo from './assets/AM_icon_FINAL_black.svg';
 
@@ -12,7 +12,9 @@ function Logo() {
         if (gps !== '/') {
           return (
             <div className="littleLogo">
-              <img src={littleLogo} alt="logo" />
+              <Link to="/">
+                <img src={littleLogo} alt="logo" />
+              </Link>
             </div>
           );
         }

@@ -35,12 +35,12 @@ function Project() {
             <h1 className="centeredLink">drinkBot</h1>
           </div>
         </Link>
-        <Link to="/sonsoc">
+        <Link to="/cookies">
           <div className="container">
             <div className="proj">
               <img className="photo1" src={volume} alt="sound" />
             </div>
-            <h1 className="centeredLink">Sound Work</h1>
+            <h1 className="centeredLink">Cookies & Chrome</h1>
           </div>
         </Link>
         <Footer />

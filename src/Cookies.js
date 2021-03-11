@@ -4,8 +4,8 @@ import ReactPlayer from 'react-player/lazy';
 
 function Cookies() {
   return (
-    <section className="headline">
-      <h1>A Generative Composition for Cookies and Chrome</h1>
+    <section className="projectBody">
+      <h1 className="title">A Generative Composition for Cookies & Chrome</h1>
       <ReactPlayer
         className="player"
         url={[
@@ -23,7 +23,7 @@ function Cookies() {
             </a>
             , was made using a Javascript library called Tone.js, asynchronous
             Javascript, HTML, and CSS. I am deeply indebted Yotam Mann for
-            making Tone.js. You can checkout his work by{' '}
+            making Tone.js. You can see his work by{' '}
             <a href="https://yotammann.info/">clicking here</a>. If you&apos;d
             like to see the documentation for Tone.js, please{' '}
             <a href="https://tonejs.github.io/">click here</a>. If you would
