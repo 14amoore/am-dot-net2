@@ -500,7 +500,7 @@ img {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
     row-gap: 5vh;
-    left: 1vw;
+    left: 0.1vw;
   }
   .photo1 {
     width: 100%;
@@ -532,7 +532,7 @@ img {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
   .littleLogo {
     left: -1vw;
   }
