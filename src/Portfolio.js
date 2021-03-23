@@ -12,10 +12,9 @@ function Portfolio() {
       <h3>
         <p>
           The version of my Portfolio you&apos;re currently visiting was made
-          using React.js. I made as a way to showcase my React, JS and web
+          using React.js. I made it as a way to showcase my React, JS and web
           design abilities. By using the component, and conditional rendering
-          features of React I was able to make a website that changes based on
-          the behavoirs of users while keeping the code neat and organized.
+          features of React the website changes based on the behavoir of users.
         </p>
       </h3>
       <h1>Why I Made This:</h1>
@@ -23,8 +22,8 @@ function Portfolio() {
         <p>
           I made the first version of my protfilio site during my second year at
           Parsons. I was very taken with a movement within web desing called
-          digital brutalism out there. There&apos;s a fair amount of writing
-          about digital brutalism.&nbsp;
+          digital brutalism. There&apos;s a fair amount of writing about digital
+          brutalism out there.&nbsp;
           <a
             className="underline"
             href="https://uxdesign.cc/why-you-should-care-about-digital-brutalism-fa0c82d60133"
@@ -39,16 +38,14 @@ function Portfolio() {
           but I understand it&apos;s not to everyone&apos;s taste.
         </p>
         <p>
-          I made this website to showcase a more mainstream aesthetic, as well
-          as my abilities to take advantage of the great tools made available by
-          React. There&apos;s a GitHub repo,&nbsp;
           <a
             className="underline"
             href="https://github.com/14amoore/am-dot-net2"
           >
-            here
+            Here&apos;s
           </a>
-          &nbsp;if youd like to take a look at the source code.
+          &nbsp;a link to the GitHub repo if youd like to take a look at the
+          source code.
         </p>
       </h3>
     </section>

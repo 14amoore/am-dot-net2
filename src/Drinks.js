@@ -11,14 +11,14 @@ import drink7 from './assets/drink7.jpg';
 import drink8 from './assets/drink8.jpg';
 
 const items = [
-  <img src={drink1} alt="tweets" />,
-  <img src={drink2} alt="tweets" />,
-  <img src={drink3} alt="tweets" />,
-  <img src={drink4} alt="tweets" />,
-  <img src={drink5} alt="tweets" />,
-  <img src={drink6} alt="tweets" />,
-  <img src={drink7} alt="tweets" />,
-  <img src={drink8} alt="tweets" />,
+  <img src={drink1} alt="tweets" className="portfolioPic" />,
+  <img src={drink2} alt="tweets" className="portfolioPic" />,
+  <img src={drink3} alt="tweets" className="portfolioPic" />,
+  <img src={drink4} alt="tweets" className="portfolioPic" />,
+  <img src={drink5} alt="tweets" className="portfolioPic" />,
+  <img src={drink6} alt="tweets" className="portfolioPic" />,
+  <img src={drink7} alt="tweets" className="portfolioPic" />,
+  <img src={drink8} alt="tweets" className="portfolioPic" />,
 ];
 
 const Drinks = () => {

@@ -36,7 +36,6 @@ function Nav() {
                 <li className="horizontalLi">
                   <a href="https://github.com/14amoore">github</a>
                 </li>
-                {/* <li id="noButton">Back</li> */}
               </ul>
             </div>
           );

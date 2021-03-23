@@ -12,8 +12,8 @@ function rand(min, max) {
 
 const whatImInto = [
   <span>
-    <b>What I&apos;m Reading:</b>&nbsp;
-    <span>The Years of Lyndon B. Johnson by Robert Caro.</span>&nbsp;
+    <b>What I&apos;m Reading:</b>&nbsp; The Years of Lyndon B. Johnson by Robert
+    Caro.&nbsp;
   </span>,
   <span>
     <b>What I&apos;m Reading:</b>&nbsp;
@@ -65,27 +65,27 @@ const whatImInto = [
   </span>,
 ];
 
-const style = {
-  backgroundColor: '#484848',
-  position: 'fixed',
-  left: '0',
-  bottom: '0',
-  height: '50px',
-  width: '100%',
-};
+// const style = {
+//   backgroundColor: '#484848',
+//   position: 'fixed',
+//   left: '0',
+//   bottom: '0',
+//   height: '4vh',
+//   width: '100%',
+// };
 
-const phantom = {
-  display: 'block',
-  padding: '20px',
-  height: '60px',
-  width: '100%',
-};
+// const phantom = {
+//   display: 'block',
+//   padding: '20px',
+//   height: '60px',
+//   width: '100%',
+// };
 
 function Footer() {
   return (
     <div>
-      <div style={phantom} />
-      <div style={style}>
+      <div className="phantom" />
+      <div className="tickerStyle">
         <Ticker offset="100%" speed={7}>
           {() => (
             <h3>

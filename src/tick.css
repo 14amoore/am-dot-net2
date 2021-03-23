@@ -4,3 +4,30 @@ h3 {
   font-weight: 200;
   color: #e5e5e5;
 }
+
+.phantom {
+  display: block;
+  padding: 20px;
+  height: 60px;
+  width: 100%;
+}
+
+.tickerStyle {
+  background: #484848;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 4vh;
+  width: 100%;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 390px) {
+  h3 {
+    font-size: 1.75rem;
+  }
+  .tickerStyle {
+    height: 7vh;
+    width: 100%;
+  }
+}

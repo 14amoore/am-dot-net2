@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import ReactPlayer from 'react-player/lazy';
+import thesis from './assets/AMooreThesis.zip';
 
 function Cookies() {
   return (
@@ -18,18 +19,31 @@ function Cookies() {
           <p>
             This Chrome extension, which can be downloaded by&nbsp;
             {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
-            <a href="https://www.adamoore.net/assets/AMooreThesis.zip">
+            <a
+              href={thesis}
+              download="AMThesis.zip"
+              target="_blank"
+              rel="noreferrer"
+              className="underline"
+            >
               clicking here
             </a>
             , was made using a Javascript library called Tone.js, asynchronous
             Javascript, HTML, and CSS. I am deeply indebted Yotam Mann for
             making Tone.js. You can see his work by{' '}
-            <a href="https://yotammann.info/">clicking here</a>. If you&apos;d
-            like to see the documentation for Tone.js, please{' '}
-            <a href="https://tonejs.github.io/">click here</a>. If you would
-            like to see the source code for this project it is in a GitHub repo,
-            please <a href="https://github.com/14amoore/cook17">click here</a>.
-            You can listen to prerecorded samples of the extension in the
+            <a href="https://yotammann.info/" className="underline">
+              clicking here
+            </a>
+            . If you&apos;d like to see the documentation for Tone.js, please{' '}
+            <a href="https://tonejs.github.io/" className="underline">
+              click here
+            </a>
+            . If you would like to see the source code for this project it is in
+            a GitHub repo, please{' '}
+            <a href="https://github.com/14amoore/cook17" className="underline">
+              click here
+            </a>
+            . You can listen to prerecorded samples of the extension in the
             Soundcloud player above.
           </p>
         </h3>
@@ -66,7 +80,13 @@ function Cookies() {
           <ol>
             <li className="instructions">
               Download the extension by{' '}
-              <a href="https://www.adamoore.net/assets/AMooreThesis.zip">
+              <a
+                href={thesis}
+                download="AMThesis.zip"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
                 clicking here
               </a>
               .
