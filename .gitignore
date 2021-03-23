@@ -10,6 +10,7 @@
 
 # production
 /build
+/adamoore.net
 
 # misc
 public/AM_favicon_200x200_FINAL_black.ico

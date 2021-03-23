@@ -77,7 +77,7 @@ function Cookies() {
         </h3>
         <h1>Instructions for installation:</h1>
         <h3>
-          <ol>
+          <ol className="list">
             <li className="instructions">
               Download the extension by{' '}
               <a
