@@ -7,7 +7,6 @@ import Portfolio from './Portfolio';
 import Cookies from './Cookies';
 import Cav from './Cav';
 import Dbot from './Dbot';
-import Sonsoc from './SonSoc';
 import AboutMe from './Aboutme';
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
         <Cav path="/cav" />
         <Dbot path="/dbot" />
         <Cookies path="/cookies" />
-        <Sonsoc path="/sonsoc" />
       </Router>
     </main>
   );
