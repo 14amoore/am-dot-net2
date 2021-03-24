@@ -44,8 +44,8 @@ function Portfolio() {
           >
             Here&apos;s
           </a>
-          &nbsp;a link to the GitHub repo if youd like to take a look at the
-          source code.
+          &nbsp;a link to the GitHub repo if you&apos;d like to take a look at
+          the source code.
         </p>
       </h3>
     </section>

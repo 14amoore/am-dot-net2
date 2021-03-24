@@ -25,7 +25,7 @@ const AboutMe = () => {
           &nbsp;in case you&apos;d like to see that. You can email me by
           clicking&nbsp;
           <a
-            href="mailto:adam@adamoore.net?Subject=Hi!"
+            href="mailto:adamoore@gmail.com?Subject=Hi!"
             target="_top"
             className="underline"
           >

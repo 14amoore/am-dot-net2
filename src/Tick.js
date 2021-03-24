@@ -20,6 +20,10 @@ const whatImInto = [
     <span>Brother, I am Dying by Edwidge Danticat.</span>&nbsp;
   </span>,
   <span>
+    <b>What I&apos;m Reading:</b>&nbsp;
+    <span>Il Gatopardo by Tomasi di Lampedusa.</span>&nbsp;
+  </span>,
+  <span>
     <b>What I&apos;m Streaming:</b>&nbsp;
     <span>Buffy The Vampire Slayer.</span>&nbsp;
   </span>,
@@ -44,16 +48,16 @@ const whatImInto = [
     <span>Growing Cacti.</span>&nbsp;
   </span>,
   <span>
-    <b>What I&apos;m Doing:</b>&nbsp;
-    <span>Cycling.</span>&nbsp;
-  </span>,
-  <span>
     <b>What I&apos;m Drinking:</b>&nbsp;
     <span>Miller High Life.</span>&nbsp;
   </span>,
   <span>
     <b>What I&apos;m Drinking:</b>&nbsp;
     <span>Iced Coffee.</span>&nbsp;
+  </span>,
+  <span>
+    <b>What I&apos;m Drinking:</b>&nbsp;
+    <span>so much water.</span>&nbsp;
   </span>,
   <span>
     <b>What I&apos;m Cooking:</b>&nbsp;
@@ -63,23 +67,11 @@ const whatImInto = [
     <b>What I&apos;m Cooking:</b>&nbsp;
     <span>Pork Shoulder in Salsa Verde.</span>&nbsp;
   </span>,
+  <span>
+    <b>What I&apos;m Cooking:</b>&nbsp;
+    <span>West Indian Curried Lamb.</span>&nbsp;
+  </span>,
 ];
-
-// const style = {
-//   backgroundColor: '#484848',
-//   position: 'fixed',
-//   left: '0',
-//   bottom: '0',
-//   height: '4vh',
-//   width: '100%',
-// };
-
-// const phantom = {
-//   display: 'block',
-//   padding: '20px',
-//   height: '60px',
-//   width: '100%',
-// };
 
 function Footer() {
   return (
