@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/aboutme", "destination": "/index.html" },
+    { "source": "/portfolio", "destination": "/index.html" },
+    { "source": "/cav", "destination": "/index.html" },
+    { "source": "/dbot", "destination": "/index.html" },
+    { "source": "/cookies", "destination": "/index.html" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "short_name": "adamoore.net v2.0",
+  "name": "An online portfolio of UX and Dev work",
+  "icons": [
+    {
+      "src": "AM_favicon_200x200_FINAL_black.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
