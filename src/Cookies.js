@@ -17,7 +17,7 @@ function Cookies() {
         <h1>How I Made This:</h1>
         <h3>
           <p>
-            This Chrome extension, which can be downloaded by&nbsp;
+            This Chrome extension,&nbsp;
             {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
             <a
               href={thesis}
@@ -26,25 +26,24 @@ function Cookies() {
               rel="noreferrer"
               className="underline"
             >
-              clicking here
+              click here to download
             </a>
-            , was made using a Javascript library called Tone.js, asynchronous
-            Javascript, HTML, and CSS. I am deeply indebted Yotam Mann for
-            making Tone.js. You can see his work by{' '}
+            . It was made using a Javascript library called Tone.js,
+            asynchronous Javascript, HTML, and CSS. I am deeply indebted Yotam
+            Mann for making Tone.js.
             <a href="https://yotammann.info/" className="underline">
-              clicking here
+              You can see his work by clicking here
             </a>
             . If you&apos;d like to see the documentation for Tone.js, please{' '}
             <a href="https://tonejs.github.io/" className="underline">
               click here
             </a>
-            . If you would like to see the source code for this project it is in
-            a GitHub repo, please{' '}
+            .&nbsp;
             <a href="https://github.com/14amoore/cook17" className="underline">
-              click here
+              Here is the source code if you&apos;d like to see that
             </a>
-            . You can listen to prerecorded samples of the extension in the
-            Soundcloud player above.
+            , it&apos;s hosted on GitHub. You can listen to prerecorded samples
+            of the extension in the Soundcloud player above.
           </p>
         </h3>
         <h1>Why I Made This:</h1>

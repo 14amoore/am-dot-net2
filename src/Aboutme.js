@@ -22,14 +22,13 @@ const AboutMe = () => {
           >
             my LinkedIn profile
           </a>
-          &nbsp;in case you&apos;d like to see that. You can email me by
-          clicking&nbsp;
+          &nbsp;in case you&apos;d like to see that. You can email me @&nbsp;
           <a
             href="mailto:adamoore@gmail.com?Subject=Hi!"
             target="_top"
             className="underline"
           >
-            here
+            adamoore@gmail.com
           </a>
           .
         </p>

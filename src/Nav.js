@@ -20,7 +20,7 @@ function Nav() {
                   </li>
                   <Link to="/">
                     <li id="backButton" className="horizontalLi">
-                      back
+                      home
                     </li>
                   </Link>
                 </ul>
