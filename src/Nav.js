@@ -16,7 +16,13 @@ function Nav() {
                     <li className="horizontalLi">about me</li>
                   </Link>
                   <li className="horizontalLi">
-                    <a href="https://github.com/14amoore">github</a>
+                    <a
+                      href="https://github.com/14amoore"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      github
+                    </a>
                   </li>
                   <Link to="/">
                     <li id="backButton" className="horizontalLi">
@@ -34,7 +40,13 @@ function Nav() {
                   <li className="horizontalLi">about me</li>
                 </Link>
                 <li className="horizontalLi">
-                  <a href="https://github.com/14amoore">github</a>
+                  <a
+                    href="https://github.com/14amoore"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    github
+                  </a>
                 </li>
               </ul>
             </div>
