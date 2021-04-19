@@ -4,7 +4,7 @@ import wineGlass from './assets/closet_cav_spot_FINAL.png';
 import website from './assets/website_spot_FINAL.png';
 import drink from './assets/drink_bot_spot_FINAL.png';
 import volume from './assets/sound_spot_FINAL.png';
-import Footer from './Tick';
+import ScrollingFooter from './Tick';
 
 function Project() {
   return (
@@ -43,7 +43,7 @@ function Project() {
             <h1 className="centeredLink">Cookies & Chrome</h1>
           </div>
         </Link>
-        <Footer />
+        <ScrollingFooter />
       </div>
     </section>
   );

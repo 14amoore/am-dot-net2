@@ -73,7 +73,7 @@ const whatImInto = [
   </span>,
 ];
 
-function Footer() {
+function ScrollingFooter() {
   return (
     <div>
       <div className="phantom" />
@@ -91,4 +91,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default ScrollingFooter;
