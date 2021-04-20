@@ -162,6 +162,10 @@ body {
   animation: Gradient 15s ease infinite;
 }
 
+img {
+  border-radius: 8px;
+}
+
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%;
@@ -256,10 +260,6 @@ body {
   position: relative;
 }
 
-img {
-  border-radius: 8px;
-}
-
 .title {
   position: relative;
   right: 2vw;
@@ -278,7 +278,7 @@ img {
 
 .littleLogo {
   position: relative;
-  left: 18em;
+  left: 15em;
   width: 20%;
 }
 
@@ -294,6 +294,22 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.cent {
+  color: rgb(232, 232, 232);
+  margin-left: 5rem;
+  margin-right: 6rem;
+}
+
+.foot {
+  background: #484848;
+  width: 100vw;
+  height: 9vh;
+  position: absolute;
+  left: 0;
+  text-align: center;
+}
+
 /* if greater than 1501 */
 @media screen and (min-width: 1601px) {
   section {
@@ -404,7 +420,7 @@ img {
     left: 28vw;
   }
   .littleLogo {
-    left: -3vw;
+    left: 17em;
   }
   .nav {
     left: 7vw;
@@ -446,7 +462,7 @@ img {
 /* if screen width is less than or equal to 1199 */
 @media screen and (max-width: 1199px) and (min-width: 701px) {
   .littleLogo {
-    left: 75vw;
+    left: 35em;
   }
   .logo {
     left: 40vw;
