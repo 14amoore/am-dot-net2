@@ -1,6 +1,6 @@
 import React from 'react';
 import Site from './Site';
-// import Footer from './Footer';
+import Footer from './Footer';
 
 function Portfolio() {
   return (
@@ -52,7 +52,7 @@ function Portfolio() {
           </p>
         </h3>
       </section>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
