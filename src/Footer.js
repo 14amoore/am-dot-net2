@@ -8,7 +8,6 @@ function Footer() {
         {({ location }) => {
           const gps = location.pathname;
           if (gps === '/portfolio') {
-            // console.log('no prev');
             return (
               <h1>
                 <div className="foot">
@@ -25,7 +24,6 @@ function Footer() {
             );
           }
           if (gps === '/cav') {
-            console.log('two options');
             return (
               <h1>
                 <div className="foot">
@@ -42,7 +40,6 @@ function Footer() {
             );
           }
           if (gps === '/dbot') {
-            console.log(gps);
             return (
               <h1>
                 <div className="foot">
@@ -58,7 +55,6 @@ function Footer() {
               </h1>
             );
           }
-          console.log(gps);
           return (
             <h1 className="footPos">
               <div className="foot">
