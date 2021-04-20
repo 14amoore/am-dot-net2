@@ -609,6 +609,9 @@ img {
     color: rgb(232, 232, 232);
     font-size: 2rem;
   }
+  .secondH {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
