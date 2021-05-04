@@ -304,7 +304,7 @@ img {
 .foot {
   background: #484848;
   width: 100vw;
-  height: 9vh;
+  height: 10vh;
   position: absolute;
   left: 0;
   text-align: center;
@@ -313,14 +313,17 @@ img {
 .firstH {
   color: rgb(232, 232, 232);
   margin-right: 22rem;
+  margin-top: 0.75rem;
 }
 .secondH {
   color: rgb(232, 232, 232);
   margin-right: 8rem;
+  margin-top: 0.75rem;
 }
 .next {
   color: rgb(232, 232, 232);
   margin-left: 8rem;
+  margin-top: 0.75rem;
 }
 
 /* if greater than 1501 */
@@ -616,18 +619,18 @@ img {
 
 @media screen and (max-width: 375px) {
   .foot {
+    width: 115vw;
     height: 11vh;
   }
   .firstH {
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 8rem;
     font-size: 2rem;
   }
   .prev {
     color: rgb(232, 232, 232);
     margin-left: 0;
-    margin-right: -5rem;
-    /* padding-right: 4rem; */
+    margin-right: 1rem;
     font-size: 2rem;
   }
   .next {
