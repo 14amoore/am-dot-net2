@@ -19,7 +19,7 @@ function Cookies() {
           <h1>How I Made This:</h1>
           <h3>
             <p>
-              This Chrome extension,&nbsp;
+              This is an extension for Chrome,&nbsp;
               {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
               <a
                 href={thesis}
