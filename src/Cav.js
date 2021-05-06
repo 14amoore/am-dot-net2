@@ -17,18 +17,18 @@ function Cav() {
             and React Bootstrap. Users are authenticated using email and
             password. I chose firebase because it is a realtime database that my
             partner and I can access at the same time, when one of us adds or
-            deletes a bottle the other sees these changes happen immediately. I
-            chose react and react bootstrap due to their functionality, and
-            popularity within the front-end development industry.
+            deletes a bottle these changes happen immediately. I chose react and
+            react bootstrap due to their functionality, and popularity within
+            the front-end development industry.
           </p>
         </h3>
         <h1>Why I Made This:</h1>
         <h3>
           <p>
-            Closet Cav was developed to show what wine is currently in my coat
-            closet by simply looking at our phones or computers. We needed to be
-            able to enter and delete wines from inventory, and search for wines
-            based on color, or country of origin.
+            Closet Cav was developed to show keep track of the wine currently in
+            my coat closet by looking at our phones or computers. We needed to
+            be able to enter and delete wines from inventory, and search for
+            wines based on color/style, or country of origin.
           </p>
           <p>
             This app was created for the use my partner and I, and also as a
@@ -37,13 +37,13 @@ function Cav() {
           </p>
           <p>
             This project started out with a simple complaint. “Why is it that I
-            never know exactly what’s in the back of the closet?” I know this is
-            a complaint similar to that of many small children. While children
-            are haunted by the specter of creatures lurking in the dark, my
-            partner was annoyed at not knowing what bottle of wine might be
-            forgotten in the dark. This complaint was the perfect opportunity to
-            make a full stack web app that could answer this question in a
-            simple and user friendly way.
+            never know exactly what’s in the back of the closet?” this is a
+            complaint similar to that of many small children. While children are
+            haunted by the specter of creatures lurking in the dark, my partner
+            was annoyed at not knowing what bottle of wine might be forgotten in
+            the dark. This complaint was the perfect opportunity to make a full
+            stack web app that could answer this question in a simple and user
+            friendly way.
           </p>
           <p>
             Click&nbsp;

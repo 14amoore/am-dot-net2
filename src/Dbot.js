@@ -36,8 +36,9 @@ function Dbot() {
             DrinkBot is a continuation of earlier work and an effort to further
             challenge myself. My first bot simply tweeted out a type of bread
             from a list of breads from around the world. The list was taken from
-            Wikipedia. BreadBot was one of the first things I made and since it
-            was finished my abilities as a Developer have grown quite a lot.
+            Wikipedia. BreadBot was one of the first pieces of software I wrote
+            and since it was finished my abilities as a Developer have grown
+            quite a lot.
           </p>
           <p>
             During the pandemic no one has been able to go to a bar until
@@ -55,6 +56,9 @@ function Dbot() {
             >
               archive.
             </a>
+            Within Punch&apos;s extensive archive are recipes created by the
+            best bartenders in the world. What better way for people at home to
+            learn to make a great cocktail?
           </p>
         </h3>
       </section>
