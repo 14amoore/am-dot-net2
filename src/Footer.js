@@ -11,14 +11,12 @@ function Footer() {
             return (
               <h1>
                 <div className="foot">
-                  <ul className="horizUl">
-                    <Link to="/">
-                      <li className="horizontalLi firstH">Home</li>
-                    </Link>
-                    <Link to="/cav">
-                      <li className="horizontalLi next">Next</li>
-                    </Link>
-                  </ul>
+                  <Link to="/">
+                    <span className="lighterL">Home</span>
+                  </Link>
+                  <Link to="/cav">
+                    <span className="lighterR">Next</span>
+                  </Link>
                 </div>
               </h1>
             );
@@ -27,14 +25,12 @@ function Footer() {
             return (
               <h1>
                 <div className="foot">
-                  <ul className="horizUl">
-                    <Link to="/portfolio">
-                      <li className="horizontalLi prev">Previous</li>
-                    </Link>
-                    <Link to="/dbot">
-                      <li className="horizontalLi next">Next</li>
-                    </Link>
-                  </ul>
+                  <Link to="/portfolio">
+                    <span className="lighterL">Previous</span>
+                  </Link>
+                  <Link to="/dbot">
+                    <span className="lighterR">Next</span>
+                  </Link>
                 </div>
               </h1>
             );
@@ -43,14 +39,12 @@ function Footer() {
             return (
               <h1>
                 <div className="foot">
-                  <ul className="horizUl">
-                    <Link to="/cav">
-                      <li className="horizontalLi prev">Previous</li>
-                    </Link>
-                    <Link to="/cookies">
-                      <li className="horizontalLi next">Next</li>
-                    </Link>
-                  </ul>
+                  <Link to="/cav">
+                    <span className="lighterL">Previous</span>
+                  </Link>
+                  <Link to="/cookies">
+                    <span className="lighterR">Next</span>
+                  </Link>
                 </div>
               </h1>
             );
@@ -58,14 +52,12 @@ function Footer() {
           return (
             <h1 className="footPos">
               <div className="foot">
-                <ul className="horizUl">
-                  <Link to="/cav">
-                    <li className="horizontalLi prev">Previous</li>
-                  </Link>
-                  <Link to="/">
-                    <li className="horizontalLi secondH">Home</li>
-                  </Link>
-                </ul>
+                <Link to="/cav">
+                  <span className="lighterL">Previous</span>
+                </Link>
+                <Link to="/">
+                  <span className="lighterR">Home</span>
+                </Link>
               </div>
             </h1>
           );

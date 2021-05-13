@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 // import './index.css';
 import './reset.css';
 import './style.css';
+import './tick.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 function Portfolio() {
   return (
-    <div>
+    <div className="hide">
       <section className="projectBody">
         <h1 className="title">adamoore.net Version 2.0</h1>
         <div className="drinkGoRound">

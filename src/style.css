@@ -7,6 +7,7 @@ body {
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
+  overflow-x: hidden;
 }
 
 h1,
@@ -34,6 +35,11 @@ h2 {
 
 h3 {
   font-size: 1.75rem;
+  font-weight: 300;
+}
+
+p {
+  color: #484848;
   font-weight: 300;
 }
 
@@ -119,12 +125,13 @@ a:hover {
 #littleLogo {
   width: 5em;
   height: auto;
-  margin: 0 0 0 10em;
+  margin: 0 0 0 12em;
 }
 
 .projects {
   width: 100vw;
   height: 90vh;
+  position: relative;
   margin: 5em 0 0 24em;
   display: flex;
   gap: 4em;
@@ -147,4 +154,55 @@ a:hover {
   margin: 0 0 0 0;
   background-color: black;
   border-radius: 8px;
+}
+
+.hide {
+  position: relative;
+  min-height: 100vh;
+}
+
+.projectBody {
+  margin: 5em 30em 8em 30em;
+  padding-bottom: 2.5rem;
+}
+
+.portfolioPic {
+  max-width: 100%;
+  height: auto;
+}
+
+.foot {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 1.5em;
+  background-color: #484848;
+  padding: 0 0 0 11em;
+}
+
+.lighterL,
+.lighterR {
+  color: rgb(232, 232, 232);
+}
+
+.lighterL:hover,
+.lighterR:hover {
+  color: rgb(236, 0, 249);
+}
+
+.lighterL {
+  margin: 0 12em 0 0;
+}
+
+.lighterR {
+  margin: 0 20em 0 0;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.list {
+  color: #484848;
+  font-weight: 300;
 }
