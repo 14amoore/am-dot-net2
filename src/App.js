@@ -1,7 +1,6 @@
 import React from 'react';
 import { Router } from '@reach/router';
-import Logo from './Logo';
-import Nav from './Nav';
+import Nav2 from './Nav2';
 import Project from './Project';
 import Portfolio from './Portfolio';
 import Cookies from './Cookies';
@@ -12,8 +11,7 @@ import AboutMe from './Aboutme';
 function App() {
   return (
     <main className="App">
-      <Logo />
-      <Nav />
+      <Nav2 />
       <Router>
         <Project path="/" />
         <AboutMe path="/aboutme" />

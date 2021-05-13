@@ -1,6 +1,7 @@
 import React from 'react';
 import { Location, Link } from '@reach/router';
-// import { CSSTransitionGroup } from 'react-transition-group';
+import bigLogo from './assets/AM_logo_FINAL_black.svg';
+import littleLogo from './assets/AM_icon_FINAL_black.svg';
 
 function Nav() {
   return (
@@ -29,6 +30,11 @@ function Nav() {
                       home
                     </li>
                   </Link>
+                  <Link to="/">
+                    <li>
+                      <img className="littleLogo" src={littleLogo} alt="logo" />
+                    </li>
+                  </Link>
                 </ul>
               </div>
             );
@@ -47,6 +53,9 @@ function Nav() {
                   >
                     github
                   </a>
+                </li>
+                <li>
+                  <img id="bigLogo" src={bigLogo} alt="logo" />
                 </li>
               </ul>
             </div>

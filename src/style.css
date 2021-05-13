@@ -1,0 +1,150 @@
+body {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background: linear-gradient(-45deg, #02a1fd, #78c0fe, #c9e5ff, #eaf5fe);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #2d2d2d;
+}
+h1 {
+  font-size: 2.75rem;
+  font-weight: 400;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+a:hover {
+  color: rgb(236, 0, 249);
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nav {
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 10vh;
+}
+
+.navEl {
+  align-self: center;
+  align-items: center;
+}
+
+#me {
+  margin: 1em 0 0 5em;
+}
+#git {
+  margin: 1em 0 0 0.75em;
+}
+#home {
+  margin: 1em 0 0 0.75em;
+}
+
+#bigLogo {
+  margin: 0 0 1em 23em;
+  width: 13em;
+  height: auto;
+  position: absolute;
+  top: -2em;
+}
+
+#littleLogo {
+  width: 5em;
+  height: auto;
+  margin: 0 0 0 10em;
+}
+
+.projects {
+  width: 100vw;
+  height: 90vh;
+  margin: 5em 0 0 24em;
+  display: flex;
+  gap: 4em;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 1em;
+  height: auto;
+}
+
+.photo1 {
+  width: 45em;
+  margin: 0 0 0 0;
+  background-color: black;
+  border-radius: 8px;
+}
