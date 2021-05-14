@@ -20,15 +20,15 @@ const OldSite = () => {
   return (
     <AliceCarousel
       responsive="responsive"
-      animationType="slide"
-      animationDuration={1000}
       autoPlay
+      animationDuration={1000}
       autoPlayInterval={1000}
       infinite
-      autoWidth="true"
+      // autoWidth="true"
       // autoHeight="true"
+      disableDotsControls
+      disableButtonsControls
       items={items}
-      disableDotsControls="true"
     />
   );
 };

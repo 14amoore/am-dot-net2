@@ -9,16 +9,16 @@ function Footer() {
           const gps = location.pathname;
           if (gps === '/portfolio') {
             return (
-              <h1>
-                <div className="foot">
+              <div>
+                <h1 className="foot">
                   <Link to="/">
-                    <span className="lighterL">Home</span>
+                    <span className="home">Home</span>
                   </Link>
                   <Link to="/cav">
-                    <span className="lighterR">Next</span>
+                    <span className="cav">Next</span>
                   </Link>
-                </div>
-              </h1>
+                </h1>
+              </div>
             );
           }
           if (gps === '/cav') {
@@ -26,10 +26,10 @@ function Footer() {
               <h1>
                 <div className="foot">
                   <Link to="/portfolio">
-                    <span className="lighterL">Previous</span>
+                    <span className="port">Previous</span>
                   </Link>
                   <Link to="/dbot">
-                    <span className="lighterR">Next</span>
+                    <span className="drink">Next</span>
                   </Link>
                 </div>
               </h1>
@@ -40,10 +40,10 @@ function Footer() {
               <h1>
                 <div className="foot">
                   <Link to="/cav">
-                    <span className="lighterL">Previous</span>
+                    <span className="prev">Previous</span>
                   </Link>
                   <Link to="/cookies">
-                    <span className="lighterR">Next</span>
+                    <span className="cooks">Next</span>
                   </Link>
                 </div>
               </h1>
@@ -53,10 +53,10 @@ function Footer() {
             <h1 className="footPos">
               <div className="foot">
                 <Link to="/cav">
-                  <span className="lighterL">Previous</span>
+                  <span className="last1">Previous</span>
                 </Link>
                 <Link to="/">
-                  <span className="lighterR">Home</span>
+                  <span className="last2">Home</span>
                 </Link>
               </div>
             </h1>

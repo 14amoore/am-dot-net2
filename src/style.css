@@ -125,14 +125,14 @@ a:hover {
 #littleLogo {
   width: 5em;
   height: auto;
-  margin: 0 0 0 12em;
+  margin: 0 0 0 7em;
 }
 
 .projects {
-  width: 100vw;
+  max-width: 75vw;
   height: 90vh;
   position: relative;
-  margin: 5em 0 0 24em;
+  margin: 5em 0 0 18em;
   display: flex;
   gap: 4em;
   flex-direction: row;
@@ -144,13 +144,15 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  flex-basis: 50%;
   margin-bottom: 1em;
   height: auto;
 }
 
 .photo1 {
-  width: 45em;
+  width: 40em;
+  flex: 0 1 40em;
+  height: auto;
   margin: 0 0 0 0;
   background-color: black;
   border-radius: 8px;

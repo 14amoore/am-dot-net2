@@ -8,7 +8,7 @@ function Cav() {
       <section className="projectBody">
         <h1 className="title">Closet Cav</h1>
         <div>
-          <img src={cav3} alt="cav shot" className="portfolioPic" />
+          <img src={cav3} alt="cav shot" className="staticPic" />
         </div>
         <h1>How I Made This:</h1>
         <h3>

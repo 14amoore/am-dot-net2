@@ -5,9 +5,7 @@ const AboutMe = () => {
   return (
     <section className="projectBody">
       <h1 className="title">Hi!</h1>
-      <div>
-        <img src={me} alt="Hi!" className="portfolioPic" />
-      </div>
+      <img src={me} alt="Hi!" className="staticPic" />
       <h3>
         <p>
           My name is Adam Moore. I&apos;m a UX Engineer, with an MFA from the

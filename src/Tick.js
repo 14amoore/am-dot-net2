@@ -80,7 +80,7 @@ function ScrollingFooter() {
       <div className="tickerStyle">
         <Ticker offset="100%" speed={7}>
           {() => (
-            <h3>
+            <h3 className="tickerContent">
               {whatImInto[rand(0, whatImInto.length - 1)]}
               &nbsp;
             </h3>
