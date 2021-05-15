@@ -121,20 +121,12 @@ a:hover {
   margin: 0 0 0 1em;
 }
 
-#bigLogo {
-  /* margin: 2em 0 1em 9em; */
-  /* width: 10em; */
-  /* align-self: center;
-  position: absolute; */
-}
-
 #bigLogo > img {
   width: 10em;
   height: auto;
 }
 
 #littleLogo {
-  /* position: absolute; */
   margin: 1em 0 0 1em;
 }
 
@@ -269,7 +261,7 @@ a:hover {
 
 @media screen and (min-width: 1024px) and (max-width: 1400px) {
   #bigLogo {
-    margin-right: 16em;
+    margin-right: 14em;
   }
   #littleLogo {
     margin-right: 18em;
