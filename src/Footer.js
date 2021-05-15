@@ -23,43 +23,43 @@ function Footer() {
           }
           if (gps === '/cav') {
             return (
-              <h1>
-                <div className="foot">
+              <div>
+                <h1 className="foot">
                   <Link to="/portfolio">
                     <span className="port">Previous</span>
                   </Link>
                   <Link to="/dbot">
                     <span className="drink">Next</span>
                   </Link>
-                </div>
-              </h1>
+                </h1>
+              </div>
             );
           }
           if (gps === '/dbot') {
             return (
-              <h1>
-                <div className="foot">
+              <div>
+                <h1 className="foot">
                   <Link to="/cav">
                     <span className="prev">Previous</span>
                   </Link>
                   <Link to="/cookies">
                     <span className="cooks">Next</span>
                   </Link>
-                </div>
-              </h1>
+                </h1>
+              </div>
             );
           }
           return (
-            <h1 className="footPos">
-              <div className="foot">
+            <div>
+              <h1 className="foot">
                 <Link to="/cav">
                   <span className="last1">Previous</span>
                 </Link>
                 <Link to="/">
                   <span className="last2">Home</span>
                 </Link>
-              </div>
-            </h1>
+              </h1>
+            </div>
           );
         }}
       </Location>

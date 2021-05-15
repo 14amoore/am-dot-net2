@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <div>
       <section className="projectBody">
-        <h1 id="title">adamoore.net Version 2.0</h1>
+        <h1 className="title">adamoore.net Version 2.0</h1>
         <div className="drinkGoRound">
           <OldSite className="drinkGoRound" />
         </div>

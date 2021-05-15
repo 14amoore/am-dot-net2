@@ -24,8 +24,6 @@ const OldSite = () => {
       animationDuration={1000}
       autoPlayInterval={1000}
       infinite
-      // autoWidth="true"
-      // autoHeight="true"
       disableDotsControls
       disableButtonsControls
       items={items}

@@ -68,7 +68,7 @@ function Nav2() {
                   github
                 </a>
               </span>
-              <span id="bigLogo">
+              <span id="bigLogo" className="navEl">
                 <img src={bigLogo} alt="logo" />
               </span>
             </div>

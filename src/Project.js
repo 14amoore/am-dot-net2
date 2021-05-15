@@ -11,19 +11,19 @@ function Project() {
     <section>
       <div className="projectContainer">
         <div className="projects">
-          <Link to="/portfolio">
+          <Link className="portfolioLink" to="/portfolio">
             <img className="photo1" src={website} alt="a speaker" />
             <h1 className="projectTitle">adamoore.net</h1>
           </Link>
-          <Link to="/cav">
+          <Link className="portfolioLink" to="/cav">
             <img className="photo1" src={wineGlass} alt="Wine Glass" />
             <h1 className="projectTitle">Closet Cav</h1>
           </Link>
-          <Link to="/dbot">
+          <Link className="portfolioLink" to="/dbot">
             <img className="photo1" src={drink} alt="robot" />
             <h1 className="projectTitle">drinkBot</h1>
           </Link>
-          <Link to="/cookies">
+          <Link className="portfolioLink" to="/cookies">
             <img className="photo1" src={volume} alt="sound" />
             <h1 className="projectTitle">Cookies & Chrome</h1>
           </Link>
