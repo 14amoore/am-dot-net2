@@ -295,6 +295,9 @@ a:hover {
   .projectBody > h3 > p {
     font-size: 1.25em;
   }
+  .projectBody > h3 > ol > li {
+    font-size: 1em;
+  }
   .foot {
     height: 2em;
   }
@@ -337,6 +340,9 @@ a:hover {
   .projectBody > h3 > p {
     font-size: 1.3em;
   }
+  .projectBody > h3 > ol > li {
+    font-size: 1.2em;
+  }
   .foot {
     height: 2em;
   }
@@ -371,23 +377,74 @@ a:hover {
 }
 
 @media screen and (min-width: 2001px) {
+  .nav {
+    font-size: 6em;
+    height: 4em;
+  }
+  #me {
+    margin-left: 5em;
+  }
+  #git {
+    margin-left: 4em;
+  }
+  #bigLogo {
+    margin-right: 12em;
+  }
+  #littleLogo {
+    margin-left: 2em;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin: 0 60em 0 60em;
+  }
+  .projectTitle {
+    font-size: 6em;
+  }
   #title {
-    font-size: 6.5em;
+    font-size: 12em;
   }
   .projectBody {
-    margin: 0 18em 0 18em;
+    margin: 0 50em 0 50em;
   }
   .projectBody > h1 {
-    font-size: 4.5em;
+    font-size: 10em;
   }
   .projectBody > h3 > p {
-    font-size: 1.25em;
+    font-size: 4em;
+  }
+  .projectBody > h3 > ol > li {
+    font-size: 3.75em;
+  }
+  .picContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolioPic {
+    width: 100%;
+  }
+  .drinkContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .drinkGoRound {
+    width: 75%;
+    height: auto;
+  }
+  .drinkPic {
+    width: 100%;
+    height: auto;
+  }
+  .staticPic {
+    width: 80%;
+    height: auto;
   }
   .foot {
-    height: 2em;
+    height: 6em;
   }
   .foot > a {
-    font-size: 1.5em;
+    font-size: 4em;
     margin-left: 2.5em;
     margin-right: 2.5em;
   }
