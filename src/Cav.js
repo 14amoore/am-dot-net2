@@ -25,10 +25,10 @@ function Cav() {
         <h1>Why I Made This:</h1>
         <h3>
           <p>
-            Closet Cav was developed to show keep track of the wine currently in
-            my coat closet by looking at our phones or computers. We needed to
-            be able to enter and delete wines from inventory, and search for
-            wines based on color/style, or country of origin.
+            Closet Cav was developed to show and keep track of the wine
+            currently in my coat closet by looking at our phones or computers.
+            We needed to be able to enter and delete wines from inventory, and
+            search for wines based on color/style, or country of origin.
           </p>
           <p>
             This app was created for the use my partner and I, and also as a
