@@ -202,8 +202,16 @@ a:hover {
   margin-right: 1em;
   margin-left: 1em;
 }
+.drinkGoRound {
+  width: 100%;
+  height: auto;
+}
+.drinkPic {
+  width: 100%;
+  height: auto;
+}
 
-@media screen and (min-width: 640px) and (max-width: 1024px) {
+@media screen and (min-width: 640px) and (max-width: 940px) {
   .nav {
     margin-bottom: 0.5em;
     font-size: 2em;
@@ -226,7 +234,39 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1420px) {
+@media screen and (min-width: 941px) and (max-width: 1024px) {
+  .nav {
+    margin-bottom: 1em;
+    font-size: 2.25em;
+    height: 4em;
+  }
+  #bigLogo {
+    margin-right: 6em;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+  .projectBody {
+    margin: 0 8em 0 8em;
+  }
+  #title {
+    font-size: 5em;
+  }
+  .projectBody > h1 {
+    font-size: 3em;
+  }
+  .projectBody > h3 > p {
+    font-size: 1.25em;
+  }
+  .player {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1420px) {
   .nav {
     font-size: 2.5em;
     height: 4em;

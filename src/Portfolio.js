@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <div>
       <section className="projectBody">
-        <h1 id="title">adamoore.net Version 2.0</h1>
+        <h1 id="title">adamoore.net Version 3.0</h1>
         <div>
           <OldSite className="picContainer" />
         </div>
@@ -16,7 +16,7 @@ function Portfolio() {
             The version of my Portfolio you&apos;re currently visiting was made
             using React.js. I made it as a way to showcase my React, JS and web
             design abilities. By using the component, and conditional rendering
-            features of React the website changes based on the behavoir of
+            features of React the website changes based on the behavior of
             users.
           </p>
         </h3>
