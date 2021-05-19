@@ -6,7 +6,7 @@ function Cav() {
   return (
     <div>
       <section className="projectBody">
-        <h1 className="title">Closet Cav</h1>
+        <h1 id="title">Closet Cav</h1>
         <div>
           <img src={cav3} alt="cav shot" className="staticPic" />
         </div>
