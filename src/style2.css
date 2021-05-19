@@ -312,6 +312,18 @@ a:hover {
   .portfolioPic {
     width: 100%;
   }
+  .drinkContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .drinkGoRound {
+    width: 75%;
+    height: auto;
+  }
+  .drinkPic {
+    width: 100%;
+    height: auto;
+  }
   .staticPic {
     width: 80%;
     height: auto;

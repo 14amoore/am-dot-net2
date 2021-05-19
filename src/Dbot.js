@@ -7,8 +7,10 @@ function Dbot() {
     <div>
       <section className="projectBody">
         <h1 className="title">DrinkBot</h1>
-        <div className="drinkGoRound">
-          <Drinks />
+        <div className="drinkContainer">
+          <div className="drinkGoRound">
+            <Drinks />
+          </div>
         </div>
         <h1>How I Made This:</h1>
         <h3>
