@@ -203,11 +203,6 @@ a:hover {
   margin-left: 1em;
 }
 
-/* .player {
-  width: 100% !important;
-  height: auto !important;
-} */
-
 @media screen and (min-width: 640px) and (max-width: 1024px) {
   .nav {
     margin-bottom: 0.5em;
@@ -294,13 +289,13 @@ a:hover {
     font-size: 6em;
   }
   .projectBody {
-    margin: 0 12em 1.5em 12em;
+    margin: 0 18em 1.5em 18em;
   }
   .projectBody > h1 {
     font-size: 4.5em;
   }
   .projectBody > h3 > p {
-    font-size: 1.25em;
+    font-size: 1.3em;
   }
   .foot {
     height: 2em;
@@ -309,6 +304,17 @@ a:hover {
     font-size: 1.5em;
     margin-left: 2.5em;
     margin-right: 2.5em;
+  }
+  .picContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolioPic {
+    width: 100%;
+  }
+  .staticPic {
+    width: 80%;
+    height: auto;
   }
 }
 

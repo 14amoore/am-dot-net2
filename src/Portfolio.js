@@ -7,8 +7,8 @@ function Portfolio() {
     <div>
       <section className="projectBody">
         <h1 id="title">adamoore.net Version 2.0</h1>
-        <div className="drinkGoRound">
-          <OldSite className="drinkGoRound" />
+        <div>
+          <OldSite className="picContainer" />
         </div>
         <h1>How I Made This:</h1>
         <h3>
@@ -23,7 +23,7 @@ function Portfolio() {
         <h1>Why I Made This:</h1>
         <h3>
           <p>
-            I made the first version of my protfilio site during my second year
+            I made the first version of my protfolio site during my second year
             at Parsons. At the time I was very taken with a movement within web
             design called digital brutalism. There&apos;s a fair amount of
             writing about digital brutalism out there.&nbsp;
@@ -34,7 +34,7 @@ function Portfolio() {
               Here&apos;s&nbsp;
             </a>
             a link to one piece that is a nice introduction if you&apos;re
-            intersted.
+            interested.
           </p>
           <p>
             Digital brutalism is something I&apos;m still very much interested
@@ -46,7 +46,7 @@ function Portfolio() {
           </p>
           <p>
             Of course, feedback like this isn&apos;t the most fun to receive,
-            but it is probably the most valuable. Afterall a portfolio should
+            but it is probably the most valuable. After all a portfolio should
             make one&apos;s work look as strong as possible. If the design of
             the portfolio is distracting users from the work itself then it
             needs to be redesigned.

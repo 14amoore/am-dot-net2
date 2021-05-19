@@ -14,6 +14,8 @@ function Cookies() {
           url={[
             'https://soundcloud.com/adam-moore-629640215/sets/thesis-play-list',
           ]}
+          width="100%"
+          height="100%"
         />
 
         <h1>How I Made This:</h1>
