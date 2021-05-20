@@ -8,7 +8,7 @@ function Cookies() {
   return (
     <div>
       <section className="projectBody">
-        <h1 className="title">A Generative Composition for Cookies & Chrome</h1>
+        <h1 id="title">A Generative Composition for Cookies & Chrome</h1>
         <ReactPlayer
           className="player"
           url={[

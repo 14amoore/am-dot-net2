@@ -6,7 +6,7 @@ function Dbot() {
   return (
     <div>
       <section className="projectBody">
-        <h1 className="title">DrinkBot</h1>
+        <h1 id="title">DrinkBot</h1>
         <div className="drinkContainer">
           <div className="drinkGoRound">
             <Drinks />
