@@ -53,7 +53,7 @@ function Portfolio() {
           </p>
           <p>
             The fruits of my research, and days spent playing in figma have lead
-            to this, adamoore.net V3.2. I do hope you like it, and that this
+            to this, adamoore.net V3.5. I do hope you like it, and that this
             portfolio opens a window into my creative process. If you have any
             feedback I&apos;d be delighted to hear it, V4.0 is not far off on
             the horizon. Please click next, take a look around.

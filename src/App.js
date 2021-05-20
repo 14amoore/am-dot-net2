@@ -1,5 +1,6 @@
 import React from 'react';
 import { Router } from '@reach/router';
+import ScrollTop from './ScrollTop';
 import Nav2 from './Nav2';
 import Project from './Project';
 import Portfolio from './Portfolio';
@@ -12,13 +13,15 @@ function App() {
   return (
     <main className="App">
       <Nav2 />
-      <Router>
-        <Project path="/" />
-        <AboutMe path="/aboutme" />
-        <Portfolio path="/portfolio" />
-        <Cav path="/cav" />
-        <Dbot path="/dbot" />
-        <Cookies path="/cookies" />
+      <Router primary={false}>
+        <ScrollTop path="/">
+          <Project path="/" />
+          <AboutMe path="/aboutme" />
+          <Portfolio path="/portfolio" />
+          <Cav path="/cav" />
+          <Dbot path="/dbot" />
+          <Cookies path="/cookies" />
+        </ScrollTop>
       </Router>
     </main>
   );
