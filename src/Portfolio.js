@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <div>
       <section className="projectBody">
-        <h1 id="title">adamoore.net Version 3.2</h1>
+        <h1 id="title">adamoore.net Version 3.6</h1>
         <div>
           <OldSite className="picContainer" />
         </div>
@@ -53,7 +53,7 @@ function Portfolio() {
           </p>
           <p>
             The fruits of my research, and days spent playing in figma have lead
-            to this, adamoore.net V3.5. I do hope you like it, and that this
+            to this, adamoore.net V3.6. I do hope you like it, and that this
             portfolio opens a window into my creative process. If you have any
             feedback I&apos;d be delighted to hear it, V4.0 is not far off on
             the horizon. Please click next, take a look around.

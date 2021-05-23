@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Location, Link } from '@reach/router';
 import bigLogo from './assets/AM_logo_FINAL_black.svg';
 import littleLogo from './assets/AM_icon_FINAL_black.svg';
 
 function Nav2() {
+  const [dimension, setDimension] = useState({
+    width: window.innerWidth,
+  });
+  useEffect(() => {
+    function handleResize() {
+      setDimension({
+        width: window.innerWidth,
+      });
+    }
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  });
   return (
     <section>
       <Location>
@@ -33,7 +47,7 @@ function Nav2() {
               </div>
             );
           }
-          if (window.innerWidth <= 700) {
+          if (dimension.width <= 640) {
             return (
               <div className="nav">
                 <Link id="me" className="navEl" to="/aboutme">

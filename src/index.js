@@ -1,8 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
-// import './reset.css';
-// import './style.css';
 import './style2.css';
 import './tick.css';
 import App from './App';
