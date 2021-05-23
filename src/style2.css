@@ -111,7 +111,7 @@ a:hover {
   padding-top: 0.25em;
 }
 #me {
-  margin-left: 1em;
+  margin-left: 0.25em;
 }
 #git {
   margin-left: 1em;
@@ -127,7 +127,7 @@ a:hover {
 }
 
 #littleLogo {
-  margin: 1em 0 0 1em;
+  margin: 1em 0 0 0;
 }
 
 #littleLogo > img {
@@ -212,6 +212,10 @@ a:hover {
 }
 
 @media screen and (min-width: 360px) and (max-width: 639px) {
+  #me {
+    margin-left: 1em;
+  }
+
   #mobileLogo {
     margin-left: 4em;
   }
@@ -222,6 +226,9 @@ a:hover {
     margin-bottom: 0.5em;
     font-size: 2em;
     height: 4em;
+  }
+  #me {
+    margin-left: 1em;
   }
   #bigLogo {
     margin-right: 6em;
@@ -245,6 +252,9 @@ a:hover {
     margin-bottom: 1em;
     font-size: 2.25em;
     height: 4em;
+  }
+  #me {
+    margin-left: 1em;
   }
   #bigLogo {
     margin-right: 6em;
@@ -276,6 +286,9 @@ a:hover {
   .nav {
     font-size: 2.15em;
     height: 4em;
+  }
+  #me {
+    margin-left: 2em;
   }
   #bigLogo {
     margin-right: 7em;
@@ -318,6 +331,9 @@ a:hover {
   .nav {
     font-size: 2.5em;
     height: 4em;
+  }
+  #me {
+    margin-left: 2em;
   }
   #bigLogo {
     margin-right: 8em;
