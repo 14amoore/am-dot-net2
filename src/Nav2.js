@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Location, Link } from '@reach/router';
-import bigLogo from './assets/AM_logo_FINAL_black.svg';
-import littleLogo from './assets/AM_icon_FINAL_black.svg';
+import { Location } from '@reach/router';
+import FourNav from './FourNav';
+import MobileNav from './MobileNav';
+import RegNav from './RegNav';
 
 function Nav2() {
   const [dimension, setDimension] = useState({
@@ -24,69 +25,12 @@ function Nav2() {
         {({ location }) => {
           const gps = location.pathname;
           if (gps !== '/') {
-            return (
-              <div className="nav">
-                <Link id="me" className="navEl" to="/aboutme">
-                  <span>about me</span>
-                </Link>
-                <span id="git" className="navEl">
-                  <a
-                    href="https://github.com/14amoore"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    github
-                  </a>
-                </span>
-                <Link id="home" className="navEl" to="/">
-                  <span>home</span>
-                </Link>
-                <span id="littleLogo">
-                  <img src={littleLogo} alt="logo" />
-                </span>
-              </div>
-            );
+            return <FourNav />;
           }
           if (dimension.width <= 640) {
-            return (
-              <div className="nav">
-                <Link id="me" className="navEl" to="/aboutme">
-                  <span id="meSpan">about me</span>
-                </Link>
-                <span id="git" className="navEl">
-                  <a
-                    href="https://github.com/14amoore"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    github
-                  </a>
-                </span>
-                <span className="navEl" id="mobileLogo">
-                  <img src={littleLogo} alt="logo" />
-                </span>
-              </div>
-            );
+            return <MobileNav />;
           }
-          return (
-            <div className="nav">
-              <Link id="me" className="navEl" to="/aboutme">
-                <span>about me</span>
-              </Link>
-              <span id="git" className="navEl">
-                <a
-                  href="https://github.com/14amoore"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  github
-                </a>
-              </span>
-              <span id="bigLogo" className="navEl">
-                <img src={bigLogo} alt="logo" />
-              </span>
-            </div>
-          );
+          return <RegNav />;
         }}
       </Location>
     </section>
