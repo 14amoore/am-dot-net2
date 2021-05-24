@@ -11,9 +11,9 @@ body {
   width: auto;
   background: linear-gradient(-45deg, #02a1fd, #78c0fe, #c9e5ff, #eaf5fe);
   background-size: 1600% 1600%;
-  -webkit-animation: Gradient 15s ease infinite;
-  -moz-animation: Gradient 15s ease infinite;
-  animation: Gradient 15s ease infinite;
+  -webkit-animation: Gradient 15s ease infinite, fadeIn 1s ease 1;
+  -moz-animation: Gradient 15s ease infinite, fadeIn 1s ease 1;
+  animation: Gradient 15s ease infinite, fadeIn 1s ease 1;
 }
 .App {
   overflow-x: hidden;
@@ -93,6 +93,15 @@ a:hover {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
