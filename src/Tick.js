@@ -89,7 +89,7 @@ function ScrollingFooter() {
     };
   });
   let tickSpeed = 7;
-  if (dimension.width > 320 && dimension.width < 767) {
+  if (dimension.width > 250 && dimension.width < 767) {
     tickSpeed = 4;
   } else if (dimension.width >= 768 && dimension.width < 1024) {
     tickSpeed = 6;
