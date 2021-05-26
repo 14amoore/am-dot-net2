@@ -100,7 +100,6 @@ function ScrollingFooter() {
   } else {
     tickSpeed = 15;
   }
-  console.log(dimension.width, tickSpeed);
   return (
     <div>
       <div className="phantom" />
