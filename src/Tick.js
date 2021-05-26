@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-one-expression-per-line */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Ticker from 'react-ticker';
 import './tick.css';
 
@@ -74,11 +74,38 @@ const whatImInto = [
 ];
 
 function ScrollingFooter() {
+  const [dimension, setDimension] = useState({
+    width: window.innerWidth,
+  });
+  useEffect(() => {
+    function handleResize() {
+      setDimension({
+        width: window.innerWidth,
+      });
+    }
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  });
+  let tickSpeed = 7;
+  if (dimension.width > 320 && dimension.width < 767) {
+    tickSpeed = 4;
+  } else if (dimension.width >= 768 && dimension.width < 1024) {
+    tickSpeed = 6;
+  } else if (dimension.width >= 1024 && dimension.width < 1800) {
+    tickSpeed = 7;
+  } else if (dimension.width >= 1800 && dimension.width < 2001) {
+    tickSpeed = 8;
+  } else {
+    tickSpeed = 15;
+  }
+  console.log(dimension.width, tickSpeed);
   return (
     <div>
       <div className="phantom" />
       <div className="tickerStyle">
-        <Ticker offset="100%" speed={7}>
+        <Ticker offset="100%" speed={tickSpeed}>
           {() => (
             <h3 className="tickerContent">
               {whatImInto[rand(0, whatImInto.length - 1)]}
