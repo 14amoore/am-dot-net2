@@ -10,14 +10,12 @@ body {
   min-height: 100vh;
   width: auto;
   background: linear-gradient(-45deg, #02a1fd, #78c0fe, #c9e5ff, #eaf5fe);
-  background-size: 1600% 1600%;
+  background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite, fadeIn 1s ease 1;
   -moz-animation: Gradient 15s ease infinite, fadeIn 1s ease 1;
   animation: Gradient 15s ease infinite, fadeIn 1s ease 1;
 }
-.App {
-  overflow-x: hidden;
-}
+
 h1,
 h2,
 h3,
