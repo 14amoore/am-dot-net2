@@ -7,13 +7,15 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  min-height: 100%;
   width: auto;
-  background: linear-gradient(-45deg, #02a1fd, #78c0fe, #c9e5ff, #eaf5fe);
+  background: linear-gradient(45deg, #02a1fd, #eaf5fe);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite, fadeIn 1s ease 1;
   -moz-animation: Gradient 15s ease infinite, fadeIn 1s ease 1;
   animation: Gradient 15s ease infinite, fadeIn 1s ease 1;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1,
@@ -146,7 +148,7 @@ a:hover {
 }
 
 #mobileLogo {
-  margin: 0 0 0 2em;
+  margin: 0 0 0 4em;
 }
 
 .projects {
@@ -155,7 +157,7 @@ a:hover {
 
 .projectTitle {
   font-size: 2.5em;
-  margin: 0 0 0.25em 0;
+  margin: 0 0 0.25em 1em;
 }
 
 .portfolioLink {
@@ -167,7 +169,8 @@ a:hover {
   width: 85%;
   height: auto;
   background-color: black;
-  margin: 0;
+  margin: 0 0 0 3em;
+  display: block;
   border-radius: 10px;
   filter: drop-shadow(0 0 0.25rem black);
 }
@@ -218,13 +221,22 @@ a:hover {
   height: auto;
 }
 
-@media screen and (min-width: 360px) and (max-width: 639px) {
+@media screen and (min-width: 360px) and (max-width: 413px) {
   #me {
     margin-left: 1em;
   }
 
   #mobileLogo {
-    margin-left: 4em;
+    margin-left: 5em;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 639px) {
+  .nav {
+    margin-left: 1.5em;
+  }
+  #mobileLogo {
+    margin-left: 6em;
   }
 }
 
@@ -238,12 +250,15 @@ a:hover {
     margin-left: 1em;
   }
   #bigLogo {
-    margin-right: 6em;
+    margin-right: 3em;
   }
   .projects {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+  }
+  .projectTitle {
+    margin-left: 1em;
   }
   .projectBody {
     margin: 0 5em 0 5em;
@@ -264,7 +279,7 @@ a:hover {
     margin-left: 1em;
   }
   #bigLogo {
-    margin-right: 6em;
+    margin-right: 5em;
   }
   .projects {
     display: grid;
@@ -308,6 +323,7 @@ a:hover {
   }
   .projectTitle {
     font-size: 3em;
+    margin-right: 0;
   }
   .projectBody {
     margin: 0 11em 1em 11em;
@@ -356,6 +372,7 @@ a:hover {
   }
   .projectTitle {
     font-size: 4em;
+    margin-left: 0;
   }
   #title {
     font-size: 6em;
@@ -430,6 +447,7 @@ a:hover {
   }
   .projectTitle {
     font-size: 6em;
+    margin-right: 2em;
   }
   #title {
     font-size: 12em;
