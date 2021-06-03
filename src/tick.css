@@ -23,7 +23,7 @@
   white-space: nowrap;
 }
 
-@media screen and (min-width: 1421px) and (max-width: 2000px) {
+@media screen and (min-width: 1421px) and (max-width: 1999px) {
   .tickerContent {
     font-size: 2.5em;
   }
@@ -33,12 +33,22 @@
   }
 }
 
-@media screen and (min-width: 2001px) {
+@media screen and (min-width: 2000px) and (max-width: 2559px) {
   .tickerContent {
-    font-size: 6em;
+    font-size: 3em;
   }
   .tickerStyle {
-    height: 5vh;
+    height: 4vh;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .tickerContent {
+    font-size: 5em;
+  }
+  .tickerStyle {
+    height: 6vh;
     width: 100%;
   }
 }
