@@ -8,7 +8,8 @@ html {
 
 body {
   min-height: 100%;
-  min-width: fit-content;
+  width: auto;
+  overflow-x: hidden;
   background: linear-gradient(45deg, #02a1fd, #eaf5fe);
   background-size: 200% 200%;
   -webkit-animation: Gradient 15s ease infinite, fadeIn 1s ease 1;
@@ -153,6 +154,7 @@ a:hover {
 
 .projects {
   text-align: center;
+  min-width: fit-content;
 }
 
 .projectTitle {
