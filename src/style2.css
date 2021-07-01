@@ -235,10 +235,6 @@ a:hover {
 }
 
 @media screen and (min-width: 414px) and (max-width: 639px) {
-  body {
-    /* min-width: 100%; */
-    /* overflow-x: hidden; */
-  }
   .nav {
     margin-left: 1.5em;
   }
